@@ -2,6 +2,8 @@ FROM alpine:edge
 
 RUN apk add bash curl git lua nodejs npm lazygit bottom python3 go neovim ripgrep alpine-sdk --update
 
+RUN npm i -g typescript
+
 WORKDIR /root
 
 RUN mkdir -p .config/nvim
