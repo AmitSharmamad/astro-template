@@ -8,4 +8,11 @@
 return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.pack.typescript" },
+  { import = "astrocommunity.pack.java" },
+  { import = "astrocommunity.pack.python" },
+  { import = "astrocommunity.pack.go" },
+  { import = "astrocommunity.pack.rust" },
+  { import = "astrocommunity.pack.json" },
+  { import = "astrocommunity.pack.yaml" },
+  { import = "astrocommunity.pack.docker" },
 }
