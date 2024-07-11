@@ -9,6 +9,9 @@ return {
       },
     },
     config = function()
+      require("mason-lspconfig").setup {
+          ensure_installed = { "typescript-language-server" },
+      }
       require'lspconfig'.tsserver.setup{}
     end
   },
