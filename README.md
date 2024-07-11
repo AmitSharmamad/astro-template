@@ -33,12 +33,12 @@ You can also just clone this repository directly if you do not want to track you
 #### Clone the repository
 
 ```shell
-git clone https://github.com/AmitSharmamad/astro-template ~/.config/nvim
+git clone https://github.com/AmitSharmamad/editor ~/.config/nvim
 ```
 
 #### For me
 ```shell
-git clone git@github.com:AmitSharmamad/astro-template.git ~/.config/nvim
+git clone git@github.com:AmitSharmamad/editor.git ~/.config/nvim
 ```
 
 #### Full Installation
@@ -49,7 +49,7 @@ rm -rf ~/.local/share/nvim
 rm -rf ~/.local/state/nvim
 rm -rf ~/.cache/nvim
 
-git clone git@github.com:AmitSharmamad/astro-template.git ~/.config/nvim
+git clone git@github.com:AmitSharmamad/editor.git ~/.config/nvim
 ```
 
 #### Start Neovim
@@ -60,7 +60,7 @@ nvim
 
 #### Using with Docker
 ```shell
-git clone git@github.com:AmitSharmamad/astro-template.git ~/.config/nvim
+git clone git@github.com:AmitSharmamad/editor.git ~/.config/nvim
 cd ~/.config/nvim
 make build
 export edit="sudo docker run -it --rm -v .:/root/code editor"
