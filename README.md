@@ -57,3 +57,11 @@ git clone git@github.com:AmitSharmamad/astro-template.git ~/.config/nvim
 ```shell
 nvim
 ```
+
+#### Using with Docker
+```shell
+git clone git@github.com:AmitSharmamad/astro-template.git ~/.config/nvim
+cd ~/.config/nvim
+make build
+export edit="sudo docker run -it --rm -v .:/root/code editor"
+```
