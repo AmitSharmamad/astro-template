@@ -13,7 +13,7 @@ rm -rf ~/.config/nvim
 rm -rf ~/.local/share/nvim
 rm -rf ~/.local/state/nvim
 rm -rf ~/.cache/nvim
-`
+```
 
 #### Make a backup of your current nvim and shared folder
 
