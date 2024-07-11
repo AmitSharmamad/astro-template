@@ -41,6 +41,17 @@ git clone https://github.com/AmitSharmamad/astro-template ~/.config/nvim
 git clone git@github.com:AmitSharmamad/astro-template.git ~/.config/nvim
 ```
 
+#### Full Installation
+
+```shell
+rm -rf ~/.config/nvim
+rm -rf ~/.local/share/nvim
+rm -rf ~/.local/state/nvim
+rm -rf ~/.cache/nvim
+
+git clone git@github.com:AmitSharmamad/astro-template.git ~/.config/nvim
+```
+
 #### Start Neovim
 
 ```shell
