@@ -2,14 +2,12 @@ return {
   {
     "williamboman/mason.nvim",
     "williamboman/mason-lspconfig.nvim",
+    "neovim/nvim-lspconfig",
     opts = {
       ensure_installed = {
         "typescript-language-server"
       },
     },
-  },
-  {
-    "neovim/nvim-lspconfig",
     config = function()
       require'lspconfig'.tsserver.setup{}
     end
