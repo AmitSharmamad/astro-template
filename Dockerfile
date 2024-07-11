@@ -4,6 +4,8 @@ RUN apk add bash curl git lua nodejs npm lazygit bottom python3 go neovim ripgre
 
 WORKDIR /root
 
+RUN npm install -g typescript typescript-language-server
+
 RUN mkdir -p .config/nvim
 
 COPY . .config/nvim
