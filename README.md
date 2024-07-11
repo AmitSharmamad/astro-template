@@ -34,6 +34,10 @@ You can also just clone this repository directly if you do not want to track you
 
 ```shell
 git clone https://github.com/AmitSharmamad/astro-template ~/.config/nvim
+```
+
+#### For me
+```shell
 git clone git@github.com:AmitSharmamad/astro-template.git ~/.config/nvim
 ```
 
