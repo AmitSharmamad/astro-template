@@ -6,5 +6,11 @@ return {
         "typescript-language-server"
       },
     },
-  }
+  },
+  {
+    "neovim/nvim-lspconfig",
+    config = function()
+      require'lspconfig'.tsserver.setup{}
+    end
+  },
 }
